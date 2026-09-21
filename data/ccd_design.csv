@@ -1,0 +1,5 @@
+experiment,temp_C,induction_time_h,IPTG_uM,galactose_gL,yeast_extract_gL,growth_rate_h-1,doubling_time_min,plasmid_retention_inoculation_pct,plasmid_retention_induction_pct,plasmid_retention_harvest_pct
+Exp1,35,3,750,10,10,0.63,65.65,82,58,6.0
+Exp2,30,3,500,5,5,0.69,60.24,88,67,26.9
+Exp3,30,4,500,0,5,0.83,49.89,82,58,10.3
+Exp4,30,4,750,5,5,0.90,46.01,85,75,28.7

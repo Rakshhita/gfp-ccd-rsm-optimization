@@ -1,0 +1,9 @@
+concentration_ug_ul,absorbance_595nm,source
+0.02,0.0414,derived_from_equation
+0.04,0.0811,derived_from_equation
+0.06,0.1209,derived_from_equation
+0.08,0.1606,derived_from_equation
+0.10,0.2003,derived_from_equation
+0.12,0.2401,derived_from_equation
+0.16,0.3196,derived_from_equation
+0.20,0.3991,derived_from_equation

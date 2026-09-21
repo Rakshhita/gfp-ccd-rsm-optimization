@@ -1,0 +1,9 @@
+experiment,sample_stage,fluorescence_FU,notes
+Exp1,Crude Cell Extract,35257,peak fluorescence
+Exp1,Cell Extract (Supernatant),36501,peak fluorescence
+Exp2,Harvest,33163,
+Exp4,3h Induction,30058,
+Exp4,Harvest,33128,
+Exp1,Eluate,27830,post-purification
+Exp2,Eluate,23155,post-purification
+Control,Water (negative control),31546,possible full-strength reference per report

@@ -1,0 +1,7 @@
+experiment,sample_stage,volume_mL,total_protein_mg,total_activity_units,specific_activity_units_per_mg,purification_fold,yield_pct
+Exp1,Crude Cell Extract,10,18.31,183.07,10.00,1.00,100.00
+Exp2,Crude Cell Extract,10,36.52,365.22,10.00,1.00,100.00
+Exp1,Supernatant,6.77,5.65,123.26,21.82,2.18,67.33
+Exp2,Supernatant,6.8,14.71,318.06,21.63,2.16,87.09
+Exp1,Eluate,1.7,0.19,64.64,346.02,34.60,35.31
+Exp2,Eluate,2.1,0.44,100.25,226.76,22.68,27.45
