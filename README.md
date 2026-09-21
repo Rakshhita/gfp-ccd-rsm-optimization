@@ -1,7 +1,7 @@
 # GFP Expression Optimisation - Data Analysis Pipeline
 
 This project reanalyses data from a recombinant protein expression
-experiment on optimising GFP expression in E. coli BL21(DE3), using a
+experiment on optimising GFP expression in *E. coli* BL21(DE3), using a
 Central Composite Design / Response Surface Methodology approach. The
 original analysis was carried out in R; this is an independent Python
 implementation of the same statistical workflow.
@@ -53,5 +53,5 @@ pip3 install -r requirements.txt
 python3 main.py
 
 This runs the full pipeline and generates three plots in the project
-directory: growth_rate_plot.png, plasmid_retention_plot.png, and
-purification_plot.png.
+directory: `growth_rate_plot.png`, `plasmid_retention_plot.png`, and
+`purification_plot.png`.
