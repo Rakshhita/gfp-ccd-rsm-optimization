@@ -1,9 +1,10 @@
 # GFP Expression Optimisation - Data Analysis Pipeline
 
-A Python data analysis project reproducing and extending the statistical
-analysis from a real recombinant protein expression optimisation experiment
-(GFP expressed in E. coli BL21(DE3), analysed via a Central Composite
-Design / Response Surface Methodology approach).
+This project reanalyses data from a recombinant protein expression
+experiment on optimising GFP expression in *E. coli* BL21(DE3), using a
+Central Composite Design / Response Surface Methodology approach. The
+original analysis was carried out in R; this is an independent Python
+implementation of the same statistical workflow.
 
 ## What this project does
 
@@ -20,13 +21,22 @@ Design / Response Surface Methodology approach).
 
 ## Data note
 
-The original experiment used a 5-factor, 44-run Central Composite Design
-across 11 teams. This project uses the 4 summary experiments explicitly
-reported in that write-up. Some data points were back-calculated from a
-reported regression equation rather than sourced from raw instrument
-output, since raw readings were not available.
+The original study used a 5-factor, 44-run Central Composite Design
+across 11 teams, providing sufficient data to fit complex models
+reliably. This project works from the 4 summary experiments reported in
+the original write-up, so the modelling has been scaled accordingly:
+models shown here that exceed what 4 data points can reliably support
+are flagged directly in the code as demonstrations of method rather than
+statistically robust results. A small number of data points (the
+Bradford standard absorbances) were back-calculated from a reported
+regression equation rather than sourced from raw readings, which were
+not available; this is also noted in the code.
 
 ## Running it
 
 pip3 install -r requirements.txt
 python3 main.py
+
+This runs the full pipeline and generates three plots in the project
+directory: `growth_rate_plot.png`, `plasmid_retention_plot.png`, and
+`purification_plot.png`.
